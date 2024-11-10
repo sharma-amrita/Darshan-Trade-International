@@ -1,15 +1,4 @@
-/**
-* Template Name: Multi
-* Template URL: https://bootstrapmade.com/multi-responsive-bootstrap-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -156,11 +145,14 @@ h6 {
 
 .header .logo img {
   max-height: 70px;
-  margin-right: 8px;
+  /* margin-left: 90px; */
+  padding-right: 60px;
+  
 }
 
 .header .logo h1 {
-  font-size: 26px;
+  font-size: 30px;
+  
   text-transform: uppercase;
   margin: 0;
   font-weight: 700;
@@ -1196,8 +1188,8 @@ section,
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 10px;
+  width: 100px;
+  border-radius: 20px;
   border: 6px solid var(--background-color);
   position: absolute;
   left: -45px;
